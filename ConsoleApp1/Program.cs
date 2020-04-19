@@ -8,7 +8,7 @@ namespace ConsoleApp1
         {
             for (int i = 0; i < i+1; i++)
             {
-                if (i % 2 == 1 && i % 3 == 1 && i % 4 == 1 && i % 5 == 1 && i % 6 == 1 && i % 7 == 0)
+                if (i % 2 == 1 && i % 3 == 2 && i % 4 == 3 && i % 5 == 4 && i % 6 == 5 && i % 7 == 6 & i%8 == 7 && i%9 ==8 && i%10==9)
                 {
                     Console.WriteLine(i.ToString());
                     break;
